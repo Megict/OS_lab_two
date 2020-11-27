@@ -120,7 +120,7 @@ int main()
         if(id2 == 0)
         {
             char arg2[1]; arg2[0] = fd2[0];
-            execl("chid_proc_two.out",filename2,arg2,NULL);
+            execl("chid_proc_one.out",filename2,arg2,NULL);
         }
         else 
         {
