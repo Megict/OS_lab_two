@@ -11,7 +11,7 @@ int main(int argc,char* argv[])
 
     int f1;
     //код дочернего процесса 
-    write(1,"It's child one\n",strlen("It's child one\n"));  
+    write(1,"It's child\n",strlen("It's child\n"));  
     char str[100];
     int i=0;
     for(;;)
